@@ -1,7 +1,7 @@
 # Cloudflare
 
 ## Setup
- Go to [setup.md]()
+ Go to [setup.md](https://github.com/PriyathamVarma/cloudflare/blob/main/setup.md)
 
 ## Workers setup
 
