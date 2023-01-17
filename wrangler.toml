@@ -1,0 +1,8 @@
+name = "test-worker"
+type = "javascript"
+
+account_id = "1e7726abc55dd5cd1c1ed55dd6973886" # copied from the cloudflare dashboard -> workers section 
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2023-01-17"
