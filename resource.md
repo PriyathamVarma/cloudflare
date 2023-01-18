@@ -1,20 +1,6 @@
-# Cloudflare
+# Resources
 
-## Setup
- Go to [setup.md](https://github.com/PriyathamVarma/cloudflare/blob/main/setup.md)
-
-## Workers setup
-
-1. use ``` npx wrangler generate <worker-name> ```
-2. setup workers -> free plan
-3. go to ``` https://dash.cloudflare.com/<accountID>/workers/overview ```
-4. copy the **accountID** and paste that in the .toml file -> account_id
-5. use ``` npx wrangler publish ```
-6. go to ``` https://test-worker.priyatham-vatsavaye.workers.dev ``` to have a look
-
-### Explanations
-
-#### Cloudflare workers
+## Cloudflare workers
 
 **What are Cloudflare Workers?**
 Cloudflare Workers is a serverless platform that allows developers to run JavaScript code directly on Cloudflare's edge network. This means that the code is executed on Cloudflare's servers, which are located in data centers all over the world, close to the users. This allows for faster performance and improved speed for web applications, as the code is executed closer to the user, reducing latency.
@@ -59,6 +45,8 @@ In summary, Wrangler is a command-line tool that helps developers to manage thei
 
 <hr/>
 
+## Serverless
+
 **What is Serverless?**
 
 Serverless is a cloud computing execution model in which the cloud provider is responsible for managing the servers and infrastructure required to run and scale an application. In this model, the developer is only responsible for writing and deploying their code, while the cloud provider handles the underlying infrastructure.
@@ -78,3 +66,47 @@ Conclusion
 
 Serverless is a cloud computing execution model that allows developers to focus on writing and deploying code, while the cloud provider handles the underlying infrastructure. It provides cost-effective, scalable, flexible, and focused on code solutions. This model is well suited for event-driven, stateless, and microservices-based architecture applications.
 
+## Webhooks
+
+Webhooks are a way for a website or application to provide other applications with real-time information.
+
+**Think of them like a phone call:**
+
+- Website A (the caller) wants to tell Website B (the recipient) about something that just happened, so it "calls" Website B and tells it what happened.
+- Website B can then do something with that information (like update its own database or send a notification to its users).
+
+**Here's an example:**
+
+- Imagine you have a website that sells t-shirts.
+
+- When someone buys a t-shirt, you want your inventory management system to be updated automatically so that you don't accidentally sell more t-shirts than you have in stock.
+
+- You can set up a webhook so that when someone buys a t-shirt on your website, it "calls" your inventory management system and tells it to update the stock count for that t-shirt.
+
+**Webhooks are a way for different applications to "talk" to each other and share information. They are often used for things like:**
+
+> Sending notifications or alerts
+
+> Syncing data between different systems
+
+> Automating workflows
+
+They are a simple yet powerful way of integrating different system with each other.
+
+
+## Webhooks vs http?
+
+- Webhooks and HTTP (Hypertext Transfer Protocol) are related, but they serve different purposes.
+
+- HTTP is the foundation of the internet and is the protocol that is used to transfer data between web browsers and servers. It's the backbone of the World Wide Web and is used by nearly all websites and web applications.
+
+- Webhooks, on the other hand, are a way for one website or application to communicate with another website or application in real-time. They use HTTP as the underlying transport protocol to send and receive data, but they are not the same thing.
+
+- To put it simply, HTTP is the foundation that webhooks are built on, but webhooks are a specific way of using HTTP for a specific purpose: sending real-time information between different applications.
+
+**In summary:**
+
+> HTTP is a protocol that is used to transfer data between web browsers and servers.
+Webhooks are a way for one website or application to communicate with another website or application in real-time, and they use 
+
+> HTTP to send and receive data.
