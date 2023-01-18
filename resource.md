@@ -94,7 +94,7 @@ Webhooks are a way for a website or application to provide other applications wi
 They are a simple yet powerful way of integrating different system with each other.
 
 
-## Webhooks vs http?
+### Webhooks vs http?
 
 - Webhooks and HTTP (Hypertext Transfer Protocol) are related, but they serve different purposes.
 
