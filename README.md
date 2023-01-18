@@ -23,4 +23,4 @@ Further documentation for Wrangler can be found [here](https://developers.cloudf
 
 All the important resources about devops which might be helpful in learning about cloudflare services
 
--[Resources](https://github.com/PriyathamVarma/cloudflare/blob/main/resource.md)
+- [Resources](https://github.com/PriyathamVarma/cloudflare/blob/main/resource.md)
