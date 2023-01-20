@@ -41,9 +41,15 @@ client.on('messageCreate', async (message) => {
     if (!message.author.bot){
         // If the message is "ping",
         const userInputText = message.content.toLowerCase();
-        if (userInputText.includes('ping')) {
-            // send "pong" to the same channel.
-            message.channel.send('pong');
+        // switch statement
+        switch(userInputText){
+            case 'hai':
+                message.channel.send('hello there!!!');
+                break;
+
+            case '!help':
+                message.channel.send('What type of help do you need?');   
+                
         }
     };
 });
